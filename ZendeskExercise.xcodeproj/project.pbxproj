@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0200D8691E212A8C00FE4313 /* Ticket.m in Sources */ = {isa = PBXBuildFile; fileRef = 0200D8681E212A8C00FE4313 /* Ticket.m */; };
+		0200D8721E212DF900FE4313 /* TicketsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0200D8711E212DF900FE4313 /* TicketsTableViewController.m */; };
+		0200D8751E212E4400FE4313 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0200D8731E212E4400FE4313 /* Main.storyboard */; };
+		0200D8791E212E8000FE4313 /* TicketsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0200D8781E212E8000FE4313 /* TicketsViewModel.m */; };
+		0200D87F1E21350600FE4313 /* TicketTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0200D87E1E21350600FE4313 /* TicketTableViewCell.m */; };
+		0200D8821E21391200FE4313 /* DashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0200D8811E21391200FE4313 /* DashboardViewController.m */; };
+		0200D8861E2159D200FE4313 /* TicketsService.m in Sources */ = {isa = PBXBuildFile; fileRef = 0200D8851E2159D200FE4313 /* TicketsService.m */; };
+		0200D8891E215BB900FE4313 /* Service.m in Sources */ = {isa = PBXBuildFile; fileRef = 0200D8881E215BB900FE4313 /* Service.m */; };
+		0270546A1E2110C8001A2E4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 027054691E2110C8001A2E4F /* main.m */; };
+		0270546D1E2110C8001A2E4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0270546C1E2110C8001A2E4F /* AppDelegate.m */; };
+		027054751E2110C8001A2E4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 027054741E2110C8001A2E4F /* Assets.xcassets */; };
+		027054781E2110C8001A2E4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 027054761E2110C8001A2E4F /* LaunchScreen.storyboard */; };
+		027054831E2110C8001A2E4F /* ZendeskExerciseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 027054821E2110C8001A2E4F /* ZendeskExerciseTests.m */; };
+		0270548E1E2110C8001A2E4F /* ZendeskExerciseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0270548D1E2110C8001A2E4F /* ZendeskExerciseUITests.m */; };
+		1A5A720AA8378BE5B002C101 /* Pods_ZendeskExercise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CA24A7A212CAB55BB85935B /* Pods_ZendeskExercise.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0270547F1E2110C8001A2E4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0270545D1E2110C8001A2E4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 027054641E2110C8001A2E4F;
+			remoteInfo = ZendeskExercise;
+		};
+		0270548A1E2110C8001A2E4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0270545D1E2110C8001A2E4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 027054641E2110C8001A2E4F;
+			remoteInfo = ZendeskExercise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0200D8671E212A8C00FE4313 /* Ticket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Ticket.h; path = Model/Ticket.h; sourceTree = "<group>"; };
+		0200D8681E212A8C00FE4313 /* Ticket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Ticket.m; path = Model/Ticket.m; sourceTree = "<group>"; };
+		0200D8701E212DF900FE4313 /* TicketsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TicketsTableViewController.h; path = ViewController/TicketsTableViewController.h; sourceTree = "<group>"; };
+		0200D8711E212DF900FE4313 /* TicketsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TicketsTableViewController.m; path = ViewController/TicketsTableViewController.m; sourceTree = "<group>"; };
+		0200D8741E212E4400FE4313 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0200D8771E212E8000FE4313 /* TicketsViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TicketsViewModel.h; path = ViewModel/TicketsViewModel.h; sourceTree = "<group>"; };
+		0200D8781E212E8000FE4313 /* TicketsViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TicketsViewModel.m; path = ViewModel/TicketsViewModel.m; sourceTree = "<group>"; };
+		0200D87D1E21350600FE4313 /* TicketTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TicketTableViewCell.h; path = View/TicketTableViewCell.h; sourceTree = "<group>"; };
+		0200D87E1E21350600FE4313 /* TicketTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TicketTableViewCell.m; path = View/TicketTableViewCell.m; sourceTree = "<group>"; };
+		0200D8801E21391200FE4313 /* DashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DashboardViewController.h; path = ViewController/DashboardViewController.h; sourceTree = "<group>"; };
+		0200D8811E21391200FE4313 /* DashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DashboardViewController.m; path = ViewController/DashboardViewController.m; sourceTree = "<group>"; };
+		0200D8841E2159D200FE4313 /* TicketsService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TicketsService.h; path = Service/TicketsService.h; sourceTree = "<group>"; };
+		0200D8851E2159D200FE4313 /* TicketsService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TicketsService.m; path = Service/TicketsService.m; sourceTree = "<group>"; };
+		0200D8871E215BB900FE4313 /* Service.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Service.h; path = Service/Service.h; sourceTree = "<group>"; };
+		0200D8881E215BB900FE4313 /* Service.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Service.m; path = Service/Service.m; sourceTree = "<group>"; };
+		027054651E2110C8001A2E4F /* ZendeskExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZendeskExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		027054691E2110C8001A2E4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0270546B1E2110C8001A2E4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0270546C1E2110C8001A2E4F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		027054741E2110C8001A2E4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		027054771E2110C8001A2E4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		027054791E2110C8001A2E4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0270547E1E2110C8001A2E4F /* ZendeskExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZendeskExerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		027054821E2110C8001A2E4F /* ZendeskExerciseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZendeskExerciseTests.m; sourceTree = "<group>"; };
+		027054841E2110C8001A2E4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		027054891E2110C8001A2E4F /* ZendeskExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZendeskExerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0270548D1E2110C8001A2E4F /* ZendeskExerciseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZendeskExerciseUITests.m; sourceTree = "<group>"; };
+		0270548F1E2110C8001A2E4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		974C70D5891B9B78A9EB6A83 /* Pods-ZendeskExercise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZendeskExercise.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZendeskExercise/Pods-ZendeskExercise.release.xcconfig"; sourceTree = "<group>"; };
+		9CA24A7A212CAB55BB85935B /* Pods_ZendeskExercise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZendeskExercise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB0BAD89BBE578C7F6168AE8 /* Pods-ZendeskExercise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZendeskExercise.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZendeskExercise/Pods-ZendeskExercise.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		027054621E2110C8001A2E4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A5A720AA8378BE5B002C101 /* Pods_ZendeskExercise.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0270547B1E2110C8001A2E4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		027054861E2110C8001A2E4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0200D8661E212A7800FE4313 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0200D8671E212A8C00FE4313 /* Ticket.h */,
+				0200D8681E212A8C00FE4313 /* Ticket.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0200D86A1E212D6A00FE4313 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0200D8701E212DF900FE4313 /* TicketsTableViewController.h */,
+				0200D8711E212DF900FE4313 /* TicketsTableViewController.m */,
+				0200D8801E21391200FE4313 /* DashboardViewController.h */,
+				0200D8811E21391200FE4313 /* DashboardViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		0200D86B1E212D7600FE4313 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0200D87D1E21350600FE4313 /* TicketTableViewCell.h */,
+				0200D87E1E21350600FE4313 /* TicketTableViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		0200D86C1E212D7E00FE4313 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0200D8731E212E4400FE4313 /* Main.storyboard */,
+				027054761E2110C8001A2E4F /* LaunchScreen.storyboard */,
+				027054741E2110C8001A2E4F /* Assets.xcassets */,
+				027054791E2110C8001A2E4F /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		0200D8761E212E6A00FE4313 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0200D8771E212E8000FE4313 /* TicketsViewModel.h */,
+				0200D8781E212E8000FE4313 /* TicketsViewModel.m */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		0200D8831E21586F00FE4313 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				0200D8871E215BB900FE4313 /* Service.h */,
+				0200D8881E215BB900FE4313 /* Service.m */,
+				0200D8841E2159D200FE4313 /* TicketsService.h */,
+				0200D8851E2159D200FE4313 /* TicketsService.m */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		0270545C1E2110C8001A2E4F = {
+			isa = PBXGroup;
+			children = (
+				027054671E2110C8001A2E4F /* ZendeskExercise */,
+				027054811E2110C8001A2E4F /* ZendeskExerciseTests */,
+				0270548C1E2110C8001A2E4F /* ZendeskExerciseUITests */,
+				027054661E2110C8001A2E4F /* Products */,
+				FD4C66EB2684E7CCFDAADA6E /* Pods */,
+				B80BAD7DAC899516E7F42948 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		027054661E2110C8001A2E4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				027054651E2110C8001A2E4F /* ZendeskExercise.app */,
+				0270547E1E2110C8001A2E4F /* ZendeskExerciseTests.xctest */,
+				027054891E2110C8001A2E4F /* ZendeskExerciseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		027054671E2110C8001A2E4F /* ZendeskExercise */ = {
+			isa = PBXGroup;
+			children = (
+				0200D8831E21586F00FE4313 /* Service */,
+				0200D8661E212A7800FE4313 /* Model */,
+				0200D86B1E212D7600FE4313 /* View */,
+				0200D8761E212E6A00FE4313 /* ViewModel */,
+				0200D86A1E212D6A00FE4313 /* ViewController */,
+				0200D86C1E212D7E00FE4313 /* Resources */,
+				027054681E2110C8001A2E4F /* Supporting Files */,
+			);
+			path = ZendeskExercise;
+			sourceTree = "<group>";
+		};
+		027054681E2110C8001A2E4F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0270546B1E2110C8001A2E4F /* AppDelegate.h */,
+				0270546C1E2110C8001A2E4F /* AppDelegate.m */,
+				027054691E2110C8001A2E4F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		027054811E2110C8001A2E4F /* ZendeskExerciseTests */ = {
+			isa = PBXGroup;
+			children = (
+				027054821E2110C8001A2E4F /* ZendeskExerciseTests.m */,
+				027054841E2110C8001A2E4F /* Info.plist */,
+			);
+			path = ZendeskExerciseTests;
+			sourceTree = "<group>";
+		};
+		0270548C1E2110C8001A2E4F /* ZendeskExerciseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0270548D1E2110C8001A2E4F /* ZendeskExerciseUITests.m */,
+				0270548F1E2110C8001A2E4F /* Info.plist */,
+			);
+			path = ZendeskExerciseUITests;
+			sourceTree = "<group>";
+		};
+		B80BAD7DAC899516E7F42948 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CA24A7A212CAB55BB85935B /* Pods_ZendeskExercise.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD4C66EB2684E7CCFDAADA6E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB0BAD89BBE578C7F6168AE8 /* Pods-ZendeskExercise.debug.xcconfig */,
+				974C70D5891B9B78A9EB6A83 /* Pods-ZendeskExercise.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		027054641E2110C8001A2E4F /* ZendeskExercise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 027054921E2110C8001A2E4F /* Build configuration list for PBXNativeTarget "ZendeskExercise" */;
+			buildPhases = (
+				1E8F6A0AE009CAD5E57AE2AA /* [CP] Check Pods Manifest.lock */,
+				027054611E2110C8001A2E4F /* Sources */,
+				027054621E2110C8001A2E4F /* Frameworks */,
+				027054631E2110C8001A2E4F /* Resources */,
+				AA4BCCBBC0A2D4B94F9DB93C /* [CP] Embed Pods Frameworks */,
+				9EA05D22EA62D6B72299DAD6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZendeskExercise;
+			productName = ZendeskExercise;
+			productReference = 027054651E2110C8001A2E4F /* ZendeskExercise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0270547D1E2110C8001A2E4F /* ZendeskExerciseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 027054951E2110C8001A2E4F /* Build configuration list for PBXNativeTarget "ZendeskExerciseTests" */;
+			buildPhases = (
+				0270547A1E2110C8001A2E4F /* Sources */,
+				0270547B1E2110C8001A2E4F /* Frameworks */,
+				0270547C1E2110C8001A2E4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				027054801E2110C8001A2E4F /* PBXTargetDependency */,
+			);
+			name = ZendeskExerciseTests;
+			productName = ZendeskExerciseTests;
+			productReference = 0270547E1E2110C8001A2E4F /* ZendeskExerciseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		027054881E2110C8001A2E4F /* ZendeskExerciseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 027054981E2110C8001A2E4F /* Build configuration list for PBXNativeTarget "ZendeskExerciseUITests" */;
+			buildPhases = (
+				027054851E2110C8001A2E4F /* Sources */,
+				027054861E2110C8001A2E4F /* Frameworks */,
+				027054871E2110C8001A2E4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0270548B1E2110C8001A2E4F /* PBXTargetDependency */,
+			);
+			name = ZendeskExerciseUITests;
+			productName = ZendeskExerciseUITests;
+			productReference = 027054891E2110C8001A2E4F /* ZendeskExerciseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0270545D1E2110C8001A2E4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = EltonMendes;
+				TargetAttributes = {
+					027054641E2110C8001A2E4F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 65X7DX2885;
+						ProvisioningStyle = Automatic;
+					};
+					0270547D1E2110C8001A2E4F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 65X7DX2885;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 027054641E2110C8001A2E4F;
+					};
+					027054881E2110C8001A2E4F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 65X7DX2885;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 027054641E2110C8001A2E4F;
+					};
+				};
+			};
+			buildConfigurationList = 027054601E2110C8001A2E4F /* Build configuration list for PBXProject "ZendeskExercise" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0270545C1E2110C8001A2E4F;
+			productRefGroup = 027054661E2110C8001A2E4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				027054641E2110C8001A2E4F /* ZendeskExercise */,
+				0270547D1E2110C8001A2E4F /* ZendeskExerciseTests */,
+				027054881E2110C8001A2E4F /* ZendeskExerciseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		027054631E2110C8001A2E4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0200D8751E212E4400FE4313 /* Main.storyboard in Resources */,
+				027054781E2110C8001A2E4F /* LaunchScreen.storyboard in Resources */,
+				027054751E2110C8001A2E4F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0270547C1E2110C8001A2E4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		027054871E2110C8001A2E4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E8F6A0AE009CAD5E57AE2AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9EA05D22EA62D6B72299DAD6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZendeskExercise/Pods-ZendeskExercise-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA4BCCBBC0A2D4B94F9DB93C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZendeskExercise/Pods-ZendeskExercise-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		027054611E2110C8001A2E4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0270546D1E2110C8001A2E4F /* AppDelegate.m in Sources */,
+				0200D8721E212DF900FE4313 /* TicketsTableViewController.m in Sources */,
+				0200D8791E212E8000FE4313 /* TicketsViewModel.m in Sources */,
+				0200D8821E21391200FE4313 /* DashboardViewController.m in Sources */,
+				0270546A1E2110C8001A2E4F /* main.m in Sources */,
+				0200D8861E2159D200FE4313 /* TicketsService.m in Sources */,
+				0200D8691E212A8C00FE4313 /* Ticket.m in Sources */,
+				0200D87F1E21350600FE4313 /* TicketTableViewCell.m in Sources */,
+				0200D8891E215BB900FE4313 /* Service.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0270547A1E2110C8001A2E4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				027054831E2110C8001A2E4F /* ZendeskExerciseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		027054851E2110C8001A2E4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0270548E1E2110C8001A2E4F /* ZendeskExerciseUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		027054801E2110C8001A2E4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 027054641E2110C8001A2E4F /* ZendeskExercise */;
+			targetProxy = 0270547F1E2110C8001A2E4F /* PBXContainerItemProxy */;
+		};
+		0270548B1E2110C8001A2E4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 027054641E2110C8001A2E4F /* ZendeskExercise */;
+			targetProxy = 0270548A1E2110C8001A2E4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0200D8731E212E4400FE4313 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0200D8741E212E4400FE4313 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		027054761E2110C8001A2E4F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				027054771E2110C8001A2E4F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		027054901E2110C8001A2E4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		027054911E2110C8001A2E4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		027054931E2110C8001A2E4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB0BAD89BBE578C7F6168AE8 /* Pods-ZendeskExercise.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 65X7DX2885;
+				INFOPLIST_FILE = ZendeskExercise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mendes.ZendeskExercise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		027054941E2110C8001A2E4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 974C70D5891B9B78A9EB6A83 /* Pods-ZendeskExercise.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 65X7DX2885;
+				INFOPLIST_FILE = ZendeskExercise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mendes.ZendeskExercise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		027054961E2110C8001A2E4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 65X7DX2885;
+				INFOPLIST_FILE = ZendeskExerciseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mendes.ZendeskExerciseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZendeskExercise.app/ZendeskExercise";
+			};
+			name = Debug;
+		};
+		027054971E2110C8001A2E4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 65X7DX2885;
+				INFOPLIST_FILE = ZendeskExerciseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mendes.ZendeskExerciseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZendeskExercise.app/ZendeskExercise";
+			};
+			name = Release;
+		};
+		027054991E2110C8001A2E4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 65X7DX2885;
+				INFOPLIST_FILE = ZendeskExerciseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mendes.ZendeskExerciseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZendeskExercise;
+			};
+			name = Debug;
+		};
+		0270549A1E2110C8001A2E4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 65X7DX2885;
+				INFOPLIST_FILE = ZendeskExerciseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mendes.ZendeskExerciseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZendeskExercise;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		027054601E2110C8001A2E4F /* Build configuration list for PBXProject "ZendeskExercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				027054901E2110C8001A2E4F /* Debug */,
+				027054911E2110C8001A2E4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		027054921E2110C8001A2E4F /* Build configuration list for PBXNativeTarget "ZendeskExercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				027054931E2110C8001A2E4F /* Debug */,
+				027054941E2110C8001A2E4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		027054951E2110C8001A2E4F /* Build configuration list for PBXNativeTarget "ZendeskExerciseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				027054961E2110C8001A2E4F /* Debug */,
+				027054971E2110C8001A2E4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		027054981E2110C8001A2E4F /* Build configuration list for PBXNativeTarget "ZendeskExerciseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				027054991E2110C8001A2E4F /* Debug */,
+				0270549A1E2110C8001A2E4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0270545D1E2110C8001A2E4F /* Project object */;
+}
