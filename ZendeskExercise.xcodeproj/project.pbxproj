@@ -19,9 +19,11 @@
 		0270546D1E2110C8001A2E4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0270546C1E2110C8001A2E4F /* AppDelegate.m */; };
 		027054751E2110C8001A2E4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 027054741E2110C8001A2E4F /* Assets.xcassets */; };
 		027054781E2110C8001A2E4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 027054761E2110C8001A2E4F /* LaunchScreen.storyboard */; };
-		027054831E2110C8001A2E4F /* ZendeskExerciseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 027054821E2110C8001A2E4F /* ZendeskExerciseTests.m */; };
 		0270548E1E2110C8001A2E4F /* ZendeskExerciseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0270548D1E2110C8001A2E4F /* ZendeskExerciseUITests.m */; };
+		0281A5731E239EE900BA683C /* TicketsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0281A5721E239EE900BA683C /* TicketsTests.m */; };
+		0281A5751E239F7700BA683C /* TicketsServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0281A5741E239F7700BA683C /* TicketsServiceTests.m */; };
 		1A5A720AA8378BE5B002C101 /* Pods_ZendeskExercise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CA24A7A212CAB55BB85935B /* Pods_ZendeskExercise.framework */; };
+		80EF49DEA22FFC35858B8EEC /* Pods_ZendeskExerciseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B93A89CEB321C41FC413EA2 /* Pods_ZendeskExerciseTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,13 +67,17 @@
 		027054771E2110C8001A2E4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		027054791E2110C8001A2E4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0270547E1E2110C8001A2E4F /* ZendeskExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZendeskExerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		027054821E2110C8001A2E4F /* ZendeskExerciseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZendeskExerciseTests.m; sourceTree = "<group>"; };
 		027054841E2110C8001A2E4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		027054891E2110C8001A2E4F /* ZendeskExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZendeskExerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0270548D1E2110C8001A2E4F /* ZendeskExerciseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZendeskExerciseUITests.m; sourceTree = "<group>"; };
 		0270548F1E2110C8001A2E4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0281A5721E239EE900BA683C /* TicketsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicketsTests.m; sourceTree = "<group>"; };
+		0281A5741E239F7700BA683C /* TicketsServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicketsServiceTests.m; sourceTree = "<group>"; };
+		0B93A89CEB321C41FC413EA2 /* Pods_ZendeskExerciseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZendeskExerciseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50C7E6AE6F71CD26BE2AC6E7 /* Pods-ZendeskExerciseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZendeskExerciseTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZendeskExerciseTests/Pods-ZendeskExerciseTests.release.xcconfig"; sourceTree = "<group>"; };
 		974C70D5891B9B78A9EB6A83 /* Pods-ZendeskExercise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZendeskExercise.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZendeskExercise/Pods-ZendeskExercise.release.xcconfig"; sourceTree = "<group>"; };
 		9CA24A7A212CAB55BB85935B /* Pods_ZendeskExercise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZendeskExercise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9030C46C2673B85FFFA5222 /* Pods-ZendeskExerciseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZendeskExerciseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZendeskExerciseTests/Pods-ZendeskExerciseTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FB0BAD89BBE578C7F6168AE8 /* Pods-ZendeskExercise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZendeskExercise.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZendeskExercise/Pods-ZendeskExercise.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80EF49DEA22FFC35858B8EEC /* Pods_ZendeskExerciseTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,8 +217,9 @@
 		027054811E2110C8001A2E4F /* ZendeskExerciseTests */ = {
 			isa = PBXGroup;
 			children = (
-				027054821E2110C8001A2E4F /* ZendeskExerciseTests.m */,
 				027054841E2110C8001A2E4F /* Info.plist */,
+				0281A5721E239EE900BA683C /* TicketsTests.m */,
+				0281A5741E239F7700BA683C /* TicketsServiceTests.m */,
 			);
 			path = ZendeskExerciseTests;
 			sourceTree = "<group>";
@@ -229,6 +237,7 @@
 			isa = PBXGroup;
 			children = (
 				9CA24A7A212CAB55BB85935B /* Pods_ZendeskExercise.framework */,
+				0B93A89CEB321C41FC413EA2 /* Pods_ZendeskExerciseTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -238,6 +247,8 @@
 			children = (
 				FB0BAD89BBE578C7F6168AE8 /* Pods-ZendeskExercise.debug.xcconfig */,
 				974C70D5891B9B78A9EB6A83 /* Pods-ZendeskExercise.release.xcconfig */,
+				C9030C46C2673B85FFFA5222 /* Pods-ZendeskExerciseTests.debug.xcconfig */,
+				50C7E6AE6F71CD26BE2AC6E7 /* Pods-ZendeskExerciseTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -269,9 +280,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 027054951E2110C8001A2E4F /* Build configuration list for PBXNativeTarget "ZendeskExerciseTests" */;
 			buildPhases = (
+				36845E068AFE2D4534013848 /* [CP] Check Pods Manifest.lock */,
 				0270547A1E2110C8001A2E4F /* Sources */,
 				0270547B1E2110C8001A2E4F /* Frameworks */,
 				0270547C1E2110C8001A2E4F /* Resources */,
+				C5680ECD930F2A65D46FA5D0 /* [CP] Embed Pods Frameworks */,
+				F04F21E78363EE902F750122 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -392,6 +406,21 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		36845E068AFE2D4534013848 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		9EA05D22EA62D6B72299DAD6 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -422,6 +451,36 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZendeskExercise/Pods-ZendeskExercise-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		C5680ECD930F2A65D46FA5D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZendeskExerciseTests/Pods-ZendeskExerciseTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F04F21E78363EE902F750122 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZendeskExerciseTests/Pods-ZendeskExerciseTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -445,7 +504,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				027054831E2110C8001A2E4F /* ZendeskExerciseTests.m in Sources */,
+				0281A5731E239EE900BA683C /* TicketsTests.m in Sources */,
+				0281A5751E239F7700BA683C /* TicketsServiceTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -610,6 +670,7 @@
 		};
 		027054961E2110C8001A2E4F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9030C46C2673B85FFFA5222 /* Pods-ZendeskExerciseTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 65X7DX2885;
@@ -623,6 +684,7 @@
 		};
 		027054971E2110C8001A2E4F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50C7E6AE6F71CD26BE2AC6E7 /* Pods-ZendeskExerciseTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 65X7DX2885;
