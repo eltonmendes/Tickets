@@ -8,6 +8,7 @@
 
 #import "TicketTableViewCell.h"
 #import "Ticket.h"
+#import "UIColor+ZendeskColors.h"
 
 @interface TicketTableViewCell()
 
@@ -19,11 +20,19 @@
 
 @implementation TicketTableViewCell
 
--(void)setupTicketCellWithTicket:(Ticket *)ticket {
+
+-(void)setupTicketCellWithTicket:(Ticket *)ticket
+                       withIndex:(NSUInteger)idx {
+    
     self.ticketDescriptionLabel.text = ticket.ticketDescription;
     self.subjectLabel.text = ticket.subject;
     self.ticketStatusLabel.text = ticket.ticketStatusDescription;
     [self setupStatus:ticket.ticketStatus];
+    
+    if(idx % 2 == 0)
+        self.backgroundColor = [UIColor whiteColor];
+    else
+        self.backgroundColor = [UIColor zendeskGray];
 
 }
 
@@ -34,6 +43,9 @@
             break;
         case TicketStatusPending:
             self.ticketStatusLabel.textColor = [UIColor orangeColor];
+            break;
+        case TicketStatusOpen:
+            self.ticketStatusLabel.textColor = [UIColor blueColor];
             break;
         default:
             break;

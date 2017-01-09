@@ -7,6 +7,7 @@
 //
 #import "TicketsViewModel.h"
 #import "TicketsService.h"
+#import "Constants.h"
 
 @interface TicketsViewModel ()
 
@@ -18,7 +19,7 @@
 
 - (void)allTicketsFromServerWithCompletion:(ticketsCompletionBlock) completion {
     [TicketsService requestTicketsFromServiceWithSuccess:^(NSArray<Ticket *> *tickets) {
-        [[NSNotificationCenter defaultCenter] postNotificationName:@"TicketsRequestCompleted"
+        [[NSNotificationCenter defaultCenter] postNotificationName:TICKETS_NOTIFICATION_REQUEST
                                                             object:nil];
         self.tickets = tickets;
         completion(YES, nil);
@@ -37,6 +38,12 @@
 
 - (NSUInteger)numberOfTicketsSections {
     return 1;
+}
+
+#pragma mark - Private Methods
+
+- (void)filteredTicketsBy {
+    
 }
 
 @end

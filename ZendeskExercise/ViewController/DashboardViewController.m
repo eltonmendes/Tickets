@@ -7,6 +7,7 @@
 //
 
 #import "DashboardViewController.h"
+#import "Constants.h"
 
 @interface DashboardViewController ()
 
@@ -20,7 +21,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [[NSNotificationCenter defaultCenter] addObserver:self
-                                             selector:@selector(ticketRequestCompleted) name:@"TicketsRequestCompleted"
+                                             selector:@selector(ticketRequestCompleted) name:TICKETS_NOTIFICATION_REQUEST
                                                object:nil];
 }
 
@@ -30,7 +31,7 @@
 
 - (void)viewWillDisappear:(BOOL)animated {
     [[NSNotificationCenter defaultCenter] removeObserver:self
-                                                    name:@"TicketsRequestCompleted"
+                                                    name:TICKETS_NOTIFICATION_REQUEST
                                                   object:nil];
 }
 

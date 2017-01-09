@@ -28,12 +28,26 @@ static NSString* const ticketReuseIdentifier = @"ticketCell";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    [self addPullToRefresh];
+    [self askTicketsToViewModel];
+}
+
+
+#pragma mark - Private Methods
+
+- (void)addPullToRefresh {
+    self.tableView.refreshControl = [[UIRefreshControl alloc] init];
+    [self.tableView.refreshControl addTarget:self
+                                      action:@selector(askTicketsToViewModel)
+                            forControlEvents:UIControlEventValueChanged];
+}
+
+- (void)askTicketsToViewModel {
     __weak __block typeof(self) weakSelf = self;
     
     [self.viewModel allTicketsFromServerWithCompletion:^(BOOL success, NSError *error) {
         [[NSOperationQueue mainQueue] addOperationWithBlock:^{
-            
+            [weakSelf.tableView.refreshControl endRefreshing];
             if(success) {
                 [weakSelf.tableView reloadData];
             } else if(error) {
@@ -58,7 +72,8 @@ static NSString* const ticketReuseIdentifier = @"ticketCell";
     TicketTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:ticketReuseIdentifier forIndexPath:indexPath];
     
     Ticket *ticket = [self.viewModel ticketForIndex:indexPath.row];
-    [cell setupTicketCellWithTicket:ticket];
+    [cell setupTicketCellWithTicket:ticket
+                          withIndex:indexPath.row];
     return cell;
 }
 

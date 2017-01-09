@@ -12,6 +12,7 @@
 
 @interface TicketTableViewCell : UITableViewCell
 
--(void)setupTicketCellWithTicket:(Ticket *)ticket;
+-(void)setupTicketCellWithTicket:(Ticket *)ticket
+                       withIndex:(NSUInteger)idx;
 
 @end

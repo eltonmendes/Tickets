@@ -11,6 +11,7 @@
 typedef enum : NSUInteger {
     TicketStatusNew,
     TicketStatusPending,
+    TicketStatusOpen,
 } TicketStatus;
 
 @interface Ticket : NSObject

@@ -14,6 +14,8 @@ static NSString* const ticketNumberJsonKey = @"subject";
 static NSString* const ticketStatusJsonKey = @"status";
 static NSString* const ticketStatusNewKey = @"new";
 static NSString* const ticketStatusPendingKey = @"pending";
+static NSString* const ticketStatusOpenKey = @"open";
+
 @implementation Ticket
 
 - (instancetype)initTicketWithJson:(NSDictionary *)jsonObject {
@@ -34,6 +36,8 @@ static NSString* const ticketStatusPendingKey = @"pending";
         _ticketStatus = TicketStatusNew;
     } else if([_ticketStatusDescription isEqualToString:ticketStatusPendingKey]) {
         _ticketStatus = TicketStatusPending;
+    } else if([_ticketStatusDescription isEqualToString:ticketStatusOpenKey]) {
+        _ticketStatus = TicketStatusOpen;
     }
 }
 @end

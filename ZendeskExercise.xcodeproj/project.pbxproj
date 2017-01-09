@@ -22,6 +22,7 @@
 		0270548E1E2110C8001A2E4F /* ZendeskExerciseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0270548D1E2110C8001A2E4F /* ZendeskExerciseUITests.m */; };
 		0281A5731E239EE900BA683C /* TicketsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0281A5721E239EE900BA683C /* TicketsTests.m */; };
 		0281A5751E239F7700BA683C /* TicketsServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0281A5741E239F7700BA683C /* TicketsServiceTests.m */; };
+		0281A57C1E23A48F00BA683C /* UIColor+ZendeskColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 0281A57B1E23A48F00BA683C /* UIColor+ZendeskColors.m */; };
 		1A5A720AA8378BE5B002C101 /* Pods_ZendeskExercise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CA24A7A212CAB55BB85935B /* Pods_ZendeskExercise.framework */; };
 		80EF49DEA22FFC35858B8EEC /* Pods_ZendeskExerciseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B93A89CEB321C41FC413EA2 /* Pods_ZendeskExerciseTests.framework */; };
 /* End PBXBuildFile section */
@@ -73,6 +74,9 @@
 		0270548F1E2110C8001A2E4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0281A5721E239EE900BA683C /* TicketsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicketsTests.m; sourceTree = "<group>"; };
 		0281A5741E239F7700BA683C /* TicketsServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicketsServiceTests.m; sourceTree = "<group>"; };
+		0281A57A1E23A48F00BA683C /* UIColor+ZendeskColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+ZendeskColors.h"; path = "Categories/UIColor+ZendeskColors.h"; sourceTree = "<group>"; };
+		0281A57B1E23A48F00BA683C /* UIColor+ZendeskColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+ZendeskColors.m"; path = "Categories/UIColor+ZendeskColors.m"; sourceTree = "<group>"; };
+		0281A57E1E23A70700BA683C /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		0B93A89CEB321C41FC413EA2 /* Pods_ZendeskExerciseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZendeskExerciseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50C7E6AE6F71CD26BE2AC6E7 /* Pods-ZendeskExerciseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZendeskExerciseTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZendeskExerciseTests/Pods-ZendeskExerciseTests.release.xcconfig"; sourceTree = "<group>"; };
 		974C70D5891B9B78A9EB6A83 /* Pods-ZendeskExercise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZendeskExercise.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZendeskExercise/Pods-ZendeskExercise.release.xcconfig"; sourceTree = "<group>"; };
@@ -193,6 +197,7 @@
 		027054671E2110C8001A2E4F /* ZendeskExercise */ = {
 			isa = PBXGroup;
 			children = (
+				0281A5761E23A45C00BA683C /* Categories */,
 				0200D8831E21586F00FE4313 /* Service */,
 				0200D8661E212A7800FE4313 /* Model */,
 				0200D86B1E212D7600FE4313 /* View */,
@@ -207,6 +212,7 @@
 		027054681E2110C8001A2E4F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0281A57E1E23A70700BA683C /* Constants.h */,
 				0270546B1E2110C8001A2E4F /* AppDelegate.h */,
 				0270546C1E2110C8001A2E4F /* AppDelegate.m */,
 				027054691E2110C8001A2E4F /* main.m */,
@@ -231,6 +237,15 @@
 				0270548F1E2110C8001A2E4F /* Info.plist */,
 			);
 			path = ZendeskExerciseUITests;
+			sourceTree = "<group>";
+		};
+		0281A5761E23A45C00BA683C /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				0281A57A1E23A48F00BA683C /* UIColor+ZendeskColors.h */,
+				0281A57B1E23A48F00BA683C /* UIColor+ZendeskColors.m */,
+			);
+			name = Categories;
 			sourceTree = "<group>";
 		};
 		B80BAD7DAC899516E7F42948 /* Frameworks */ = {
@@ -488,6 +503,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0281A57C1E23A48F00BA683C /* UIColor+ZendeskColors.m in Sources */,
 				0270546D1E2110C8001A2E4F /* AppDelegate.m in Sources */,
 				0200D8721E212DF900FE4313 /* TicketsTableViewController.m in Sources */,
 				0200D8791E212E8000FE4313 /* TicketsViewModel.m in Sources */,

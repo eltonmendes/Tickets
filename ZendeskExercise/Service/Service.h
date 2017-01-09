@@ -16,6 +16,6 @@ typedef void (^failureBlock)(NSError *error);
 + (void)performRequestWithURL:(NSString *)URL
                 withParameter:(id)parameters
                   withSuccess:(successBlock)success
-                  withFailure:(failureBlock)failure ;
+                  withFailure:(failureBlock)failure;
 
 @end
