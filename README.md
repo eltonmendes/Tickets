@@ -12,10 +12,14 @@ Cocoapods 1.1.1
 
 # Instalation 
 
-Tickets is working with CocoaPods. After checkout the project run:
+Tickets is working with CocoaPods. After checkout the project:
 
 ```ruby
 git clone https://github.com/eltonmendes/Tickets.git
+```
+
+Run:
+```ruby
 pod install
 ```
 
